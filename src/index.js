@@ -19,8 +19,8 @@ function goClimb() {
   }
 }
 
-let themeButton = document.querySelector(".theme-button");
+let themeButton = document.querySelector("#themeButton");
 themeButton.addEventListener("click", changeTheme);
 
-let climbButton = document.querySelector(".climb");
+let climbButton = document.querySelector("#climbButton");
 climbButton.addEventListener("click", goClimb);
